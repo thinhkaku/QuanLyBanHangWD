@@ -62,3 +62,30 @@ D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.pdb
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.pdb
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.cache
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.compiled
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\BUL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\BUL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csprojResolveAssemblyReference.cache
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCDoanhSo.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCNgay.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmHang.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmKhachHang.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLapHoaDon.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLichSuGia.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLoaiHang.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.MDIParent1.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhaCungCap.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhanVien.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmXemHoaDon.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.cache
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.compiled

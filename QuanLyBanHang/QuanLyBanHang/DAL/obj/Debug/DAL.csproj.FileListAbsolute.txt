@@ -12,3 +12,10 @@ D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\DAL\bin\Debug\DTO.pdb
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\DAL\obj\Debug\DAL.dll
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\DAL\obj\Debug\DAL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\bin\Debug\DAL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\bin\Debug\DAL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\bin\Debug\DTO.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\bin\Debug\DTO.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\obj\Debug\DAL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DAL\obj\Debug\DAL.pdb

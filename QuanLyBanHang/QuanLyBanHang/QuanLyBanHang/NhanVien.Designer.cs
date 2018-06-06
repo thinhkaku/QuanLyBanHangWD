@@ -205,6 +205,7 @@
             this.dgvDanhMuc.Name = "dgvDanhMuc";
             this.dgvDanhMuc.Size = new System.Drawing.Size(982, 215);
             this.dgvDanhMuc.TabIndex = 10;
+            this.dgvDanhMuc.CellMouseClick += new System.Windows.Forms.DataGridViewCellMouseEventHandler(this.dgvDanhMuc_CellMouseClick);
             // 
             // groupBox1
             // 

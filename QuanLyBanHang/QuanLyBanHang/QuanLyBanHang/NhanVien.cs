@@ -138,9 +138,7 @@ namespace QuanLyBanHang
                 {
                     if (ktMaTrungNV.KT_MaTrung(txtMaNV.Text))
                     {
-                        mySuaNV.Suasp(txtMaNV.Text, txtTenNV.Text, txtDiaChiNV.Text, txtSDTNV.Text);
-                        MessageBox.Show("Sửa thông tin nhân viên thành công!", "Thông báo");
-                        clearText();
+                        showMessageXacNhanSuaNhanVien();
                     }
                     else
                     {
@@ -166,9 +164,7 @@ namespace QuanLyBanHang
             {
                 if (ktMaTrungNV.KT_MaTrung(txtMaNV.Text))
                 {
-                    myXoaNV.Xoasp(txtMaNV.Text);
-                    MessageBox.Show("Xóa nhân viên thành công!", "Thông báo");
-                    clearText();
+                    showMessageXacNhanXoaNhanVien();
                 }
                 else
                 {
@@ -177,6 +173,48 @@ namespace QuanLyBanHang
             }
             
             HienNV();
+        }
+
+        private void showMessageXacNhanSuaNhanVien()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin nhà cung cấp này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                mySuaNV.Suasp(txtMaNV.Text, txtTenNV.Text, txtDiaChiNV.Text, txtSDTNV.Text);
+                MessageBox.Show("Sửa thông tin nhân viên thành công!", "Thông báo");
+                clearText();
+            }
+        }
+
+        private void dgvDanhMuc_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            try
+            {
+              
+                DataGridViewRow row = new DataGridViewRow();
+                row = dgvDanhMuc.Rows[e.RowIndex];
+                txtMaNV.Text = row.Cells[0].Value.ToString();
+                txtTenNV.Text = row.Cells[1].Value.ToString();
+                txtDiaChiNV.Text = row.Cells[2].Value.ToString();
+                txtSDTNV.Text = row.Cells[3].Value.ToString();
+                
+            }
+            catch (Exception)
+            {
+
+
+            }
+        }
+
+        private void showMessageXacNhanXoaNhanVien()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn xóa nhà cung cấp này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                myXoaNV.Xoasp(txtMaNV.Text);
+                MessageBox.Show("Xóa nhân viên thành công!", "Thông báo");
+                clearText();
+            }
         }
 
         private void btnXem_Click(object sender, EventArgs e)
@@ -198,5 +236,9 @@ namespace QuanLyBanHang
             }
             
         }
+
+        
+
+       
     }
 }

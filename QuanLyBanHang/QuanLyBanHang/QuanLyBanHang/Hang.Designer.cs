@@ -56,7 +56,7 @@
             // btnXem
             // 
             this.btnXem.Location = new System.Drawing.Point(701, 404);
-            this.btnXem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXem.Margin = new System.Windows.Forms.Padding(4);
             this.btnXem.Name = "btnXem";
             this.btnXem.Size = new System.Drawing.Size(100, 46);
             this.btnXem.TabIndex = 14;
@@ -67,7 +67,7 @@
             // btnXoa
             // 
             this.btnXoa.Location = new System.Drawing.Point(485, 404);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(100, 46);
             this.btnXoa.TabIndex = 13;
@@ -78,7 +78,7 @@
             // btnSua
             // 
             this.btnSua.Location = new System.Drawing.Point(263, 404);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(100, 46);
             this.btnSua.TabIndex = 12;
@@ -89,7 +89,7 @@
             // btnThem
             // 
             this.btnThem.Location = new System.Drawing.Point(65, 404);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(100, 46);
             this.btnThem.TabIndex = 11;
@@ -101,7 +101,7 @@
             // 
             this.dgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhMuc.Location = new System.Drawing.Point(11, 481);
-            this.dgvDanhMuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDanhMuc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhMuc.Name = "dgvDanhMuc";
             this.dgvDanhMuc.Size = new System.Drawing.Size(1023, 185);
             this.dgvDanhMuc.TabIndex = 10;
@@ -125,9 +125,9 @@
             this.grbHang.Controls.Add(this.txtMaHang);
             this.grbHang.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbHang.Location = new System.Drawing.Point(16, 68);
-            this.grbHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbHang.Margin = new System.Windows.Forms.Padding(4);
             this.grbHang.Name = "grbHang";
-            this.grbHang.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbHang.Padding = new System.Windows.Forms.Padding(4);
             this.grbHang.Size = new System.Drawing.Size(1023, 208);
             this.grbHang.TabIndex = 17;
             this.grbHang.TabStop = false;
@@ -137,7 +137,7 @@
             // 
             this.cmbTenNCCHang.FormattingEnabled = true;
             this.cmbTenNCCHang.Location = new System.Drawing.Point(825, 76);
-            this.cmbTenNCCHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbTenNCCHang.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTenNCCHang.Name = "cmbTenNCCHang";
             this.cmbTenNCCHang.Size = new System.Drawing.Size(160, 28);
             this.cmbTenNCCHang.TabIndex = 40;
@@ -165,7 +165,7 @@
             // txtDVT
             // 
             this.txtDVT.Location = new System.Drawing.Point(825, 132);
-            this.txtDVT.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDVT.Margin = new System.Windows.Forms.Padding(4);
             this.txtDVT.Name = "txtDVT";
             this.txtDVT.Size = new System.Drawing.Size(160, 26);
             this.txtDVT.TabIndex = 36;
@@ -174,7 +174,7 @@
             // 
             this.cmbTenLoaiHang.FormattingEnabled = true;
             this.cmbTenLoaiHang.Location = new System.Drawing.Point(825, 39);
-            this.cmbTenLoaiHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cmbTenLoaiHang.Margin = new System.Windows.Forms.Padding(4);
             this.cmbTenLoaiHang.Name = "cmbTenLoaiHang";
             this.cmbTenLoaiHang.Size = new System.Drawing.Size(160, 28);
             this.cmbTenLoaiHang.TabIndex = 33;
@@ -202,7 +202,7 @@
             // txtDonGia
             // 
             this.txtDonGia.Location = new System.Drawing.Point(469, 132);
-            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDonGia.Margin = new System.Windows.Forms.Padding(4);
             this.txtDonGia.Name = "txtDonGia";
             this.txtDonGia.Size = new System.Drawing.Size(132, 26);
             this.txtDonGia.TabIndex = 30;
@@ -220,7 +220,7 @@
             // txtSoLuong
             // 
             this.txtSoLuong.Location = new System.Drawing.Point(469, 42);
-            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoLuong.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoLuong.Name = "txtSoLuong";
             this.txtSoLuong.Size = new System.Drawing.Size(132, 26);
             this.txtSoLuong.TabIndex = 28;
@@ -238,7 +238,7 @@
             // txtTensp
             // 
             this.txtTensp.Location = new System.Drawing.Point(172, 135);
-            this.txtTensp.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTensp.Margin = new System.Windows.Forms.Padding(4);
             this.txtTensp.Name = "txtTensp";
             this.txtTensp.Size = new System.Drawing.Size(132, 26);
             this.txtTensp.TabIndex = 24;
@@ -256,7 +256,7 @@
             // txtMaHang
             // 
             this.txtMaHang.Location = new System.Drawing.Point(172, 42);
-            this.txtMaHang.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaHang.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaHang.Name = "txtMaHang";
             this.txtMaHang.Size = new System.Drawing.Size(132, 26);
             this.txtMaHang.TabIndex = 22;
@@ -264,7 +264,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(887, 404);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 46);
             this.button1.TabIndex = 18;
@@ -284,7 +284,7 @@
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.dgvDanhMuc);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmHang";
             this.Text = "Hang";
             this.TopMost = true;

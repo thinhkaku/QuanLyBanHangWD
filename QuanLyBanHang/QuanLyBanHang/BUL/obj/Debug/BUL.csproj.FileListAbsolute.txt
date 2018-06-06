@@ -16,3 +16,12 @@ D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.pdb
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.dll
 D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\BUL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\BUL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DAL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DAL.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.pdb
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.dll
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.pdb
