@@ -43,6 +43,10 @@
             this.txtMaNhaCungCap = new System.Windows.Forms.TextBox();
             this.dgvDanhMuc = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.MaNhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TenNhaCungCap = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DiaChi = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbNCC.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhMuc)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -194,9 +198,17 @@
             // 
             // dgvDanhMuc
             // 
+            this.dgvDanhMuc.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.dgvDanhMuc.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDanhMuc.Location = new System.Drawing.Point(7, 27);
+            this.dgvDanhMuc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaNhaCungCap,
+            this.TenNhaCungCap,
+            this.DiaChi,
+            this.SoDienThoai});
+            this.dgvDanhMuc.Location = new System.Drawing.Point(7, 39);
             this.dgvDanhMuc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhMuc.Name = "dgvDanhMuc";
             this.dgvDanhMuc.Size = new System.Drawing.Size(1026, 188);
@@ -207,12 +219,40 @@
             // 
             this.groupBox1.Controls.Add(this.dgvDanhMuc);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(12, 409);
+            this.groupBox1.Location = new System.Drawing.Point(12, 386);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1040, 178);
+            this.groupBox1.Size = new System.Drawing.Size(1040, 238);
             this.groupBox1.TabIndex = 42;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách nhà cung cấp";
+            // 
+            // MaNhaCungCap
+            // 
+            this.MaNhaCungCap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaNhaCungCap.DataPropertyName = "MaNhaCungCap";
+            this.MaNhaCungCap.HeaderText = "Mã nhà cung cấp";
+            this.MaNhaCungCap.Name = "MaNhaCungCap";
+            // 
+            // TenNhaCungCap
+            // 
+            this.TenNhaCungCap.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.TenNhaCungCap.DataPropertyName = "TenNhaCungCap";
+            this.TenNhaCungCap.HeaderText = "Tên nhà cung cấp";
+            this.TenNhaCungCap.Name = "TenNhaCungCap";
+            // 
+            // DiaChi
+            // 
+            this.DiaChi.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.DiaChi.DataPropertyName = "DiaChi";
+            this.DiaChi.HeaderText = "Địa chỉ";
+            this.DiaChi.Name = "DiaChi";
+            // 
+            // SoDienThoai
+            // 
+            this.SoDienThoai.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.SoDienThoai.DataPropertyName = "SoDienThoai";
+            this.SoDienThoai.HeaderText = "Số điện thoại";
+            this.SoDienThoai.Name = "SoDienThoai";
             // 
             // frmNhaCungCap
             // 
@@ -255,5 +295,9 @@
         private System.Windows.Forms.TextBox txtMaNhaCungCap;
         private System.Windows.Forms.DataGridView dgvDanhMuc;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaNhaCungCap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TenNhaCungCap;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DiaChi;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoDienThoai;
     }
 }

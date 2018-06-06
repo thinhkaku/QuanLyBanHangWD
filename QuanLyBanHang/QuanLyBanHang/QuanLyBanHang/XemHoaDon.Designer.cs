@@ -36,7 +36,6 @@
             this.cmbMaHD = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dgvThongTin = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
             this.ColMaHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColTenHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColTenKH = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,6 +44,7 @@
             this.ColSoLuong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColDonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ColThanhTien = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvThongTin)).BeginInit();
             this.SuspendLayout();
@@ -52,33 +52,39 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(207, 52);
+            this.label2.Location = new System.Drawing.Point(276, 64);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(68, 13);
+            this.label2.Size = new System.Drawing.Size(87, 17);
             this.label2.TabIndex = 15;
             this.label2.Text = "Mã Hóa Đơn";
             // 
             // cmbMaHD
             // 
             this.cmbMaHD.FormattingEnabled = true;
-            this.cmbMaHD.Location = new System.Drawing.Point(334, 44);
+            this.cmbMaHD.Location = new System.Drawing.Point(445, 64);
+            this.cmbMaHD.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbMaHD.Name = "cmbMaHD";
-            this.cmbMaHD.Size = new System.Drawing.Size(141, 21);
+            this.cmbMaHD.Size = new System.Drawing.Size(187, 24);
             this.cmbMaHD.TabIndex = 16;
+            this.cmbMaHD.SelectedIndexChanged += new System.EventHandler(this.cmbMaHD_SelectedIndexChanged);
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvThongTin);
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.groupBox1.Location = new System.Drawing.Point(0, 168);
+            this.groupBox1.Location = new System.Drawing.Point(0, 236);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(707, 329);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(1036, 405);
             this.groupBox1.TabIndex = 17;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Hóa Đơn";
             // 
             // dgvThongTin
             // 
+            this.dgvThongTin.BackgroundColor = System.Drawing.SystemColors.ActiveCaption;
             this.dgvThongTin.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvThongTin.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ColMaHD,
@@ -90,20 +96,11 @@
             this.ColDonGia,
             this.ColThanhTien});
             this.dgvThongTin.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgvThongTin.Location = new System.Drawing.Point(3, 16);
+            this.dgvThongTin.Location = new System.Drawing.Point(4, 19);
+            this.dgvThongTin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgvThongTin.Name = "dgvThongTin";
-            this.dgvThongTin.Size = new System.Drawing.Size(701, 310);
+            this.dgvThongTin.Size = new System.Drawing.Size(1028, 382);
             this.dgvThongTin.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(304, 113);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 18;
-            this.button1.Text = "Xem";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // ColMaHD
             // 
@@ -173,15 +170,31 @@
             this.ColThanhTien.HeaderText = "Thành Tiền";
             this.ColThanhTien.Name = "ColThanhTien";
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.OrangeRed;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button1.Location = new System.Drawing.Point(445, 158);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(150, 46);
+            this.button1.TabIndex = 18;
+            this.button1.Text = "Xem";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmXemHoaDon
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(707, 497);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1036, 641);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.cmbMaHD);
             this.Controls.Add(this.label2);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "frmXemHoaDon";
             this.Text = "XemHoaDon";
             this.Load += new System.EventHandler(this.frmXemHoaDon_Load);

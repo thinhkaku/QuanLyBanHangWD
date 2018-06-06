@@ -74,6 +74,8 @@ namespace QuanLyBanHang
 
         private void frmLoaiHang_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
             HienLoaiHang();
             txtMaLoai.Focus();
 
@@ -188,5 +190,7 @@ namespace QuanLyBanHang
 
             }
         }
+
+       
     }
 }

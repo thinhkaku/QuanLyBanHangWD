@@ -17,6 +17,8 @@ namespace QuanLyBanHang
         public frmXemHoaDon()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
         HangBUL myHang = new HangBUL();
         HoaDonBUL myHD = new HoaDonBUL();
@@ -66,6 +68,11 @@ namespace QuanLyBanHang
                 
             }
             
+        }
+
+        private void cmbMaHD_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

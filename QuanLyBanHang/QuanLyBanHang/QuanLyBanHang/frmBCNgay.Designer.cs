@@ -58,12 +58,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(547, 108);
+            this.button1.BackColor = System.Drawing.Color.Orange;
+            this.button1.Location = new System.Drawing.Point(729, 133);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(100, 35);
             this.button1.TabIndex = 0;
             this.button1.Text = "Tìm Kiếm";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // reportViewer1
@@ -72,9 +74,10 @@
             reportDataSource1.Value = this.HoaDonChiTietBindingSource;
             this.reportViewer1.LocalReport.DataSources.Add(reportDataSource1);
             this.reportViewer1.LocalReport.ReportEmbeddedResource = "QuanLyBanHang.Report2.rdlc";
-            this.reportViewer1.Location = new System.Drawing.Point(12, 162);
+            this.reportViewer1.Location = new System.Drawing.Point(16, 199);
+            this.reportViewer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.reportViewer1.Name = "reportViewer1";
-            this.reportViewer1.Size = new System.Drawing.Size(753, 301);
+            this.reportViewer1.Size = new System.Drawing.Size(1003, 370);
             this.reportViewer1.TabIndex = 2;
             // 
             // HoaDonChiTietTableAdapter
@@ -84,66 +87,76 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(174, 117);
+            this.label1.Location = new System.Drawing.Point(232, 144);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(76, 13);
+            this.label1.Size = new System.Drawing.Size(99, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "Ngày Báo Cáo";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(281, 111);
+            this.dateTimePicker1.Location = new System.Drawing.Point(375, 137);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePicker1.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker1.TabIndex = 4;
             // 
             // txtTenDV
             // 
-            this.txtTenDV.Location = new System.Drawing.Point(324, 17);
+            this.txtTenDV.Location = new System.Drawing.Point(432, 21);
+            this.txtTenDV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenDV.Name = "txtTenDV";
-            this.txtTenDV.Size = new System.Drawing.Size(200, 20);
+            this.txtTenDV.Size = new System.Drawing.Size(265, 22);
             this.txtTenDV.TabIndex = 5;
             // 
             // txtTenNV
             // 
-            this.txtTenNV.Location = new System.Drawing.Point(324, 53);
+            this.txtTenNV.Location = new System.Drawing.Point(432, 65);
+            this.txtTenNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTenNV.Name = "txtTenNV";
-            this.txtTenNV.Size = new System.Drawing.Size(200, 20);
+            this.txtTenNV.Size = new System.Drawing.Size(265, 22);
             this.txtTenNV.TabIndex = 6;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(217, 60);
+            this.label2.Location = new System.Drawing.Point(289, 74);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.Size = new System.Drawing.Size(103, 17);
             this.label2.TabIndex = 7;
             this.label2.Text = "Tên Nhân Viên";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(217, 24);
+            this.label3.Location = new System.Drawing.Point(289, 30);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(61, 13);
+            this.label3.Size = new System.Drawing.Size(79, 17);
             this.label3.TabIndex = 8;
             this.label3.Text = "Tên Đơn Vị";
             // 
             // btnIn
             // 
-            this.btnIn.Location = new System.Drawing.Point(613, 486);
+            this.btnIn.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnIn.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnIn.Location = new System.Drawing.Point(822, 582);
+            this.btnIn.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIn.Name = "btnIn";
-            this.btnIn.Size = new System.Drawing.Size(75, 23);
+            this.btnIn.Size = new System.Drawing.Size(100, 46);
             this.btnIn.TabIndex = 9;
             this.btnIn.Text = "In báo cáo";
-            this.btnIn.UseVisualStyleBackColor = true;
+            this.btnIn.UseVisualStyleBackColor = false;
             this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // frmBCNgay
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(777, 521);
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.ClientSize = new System.Drawing.Size(1036, 641);
             this.Controls.Add(this.btnIn);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -153,6 +166,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.reportViewer1);
             this.Controls.Add(this.button1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "frmBCNgay";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

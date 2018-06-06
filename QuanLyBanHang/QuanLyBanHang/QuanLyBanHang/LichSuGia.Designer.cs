@@ -46,6 +46,11 @@
             this.dgvDanhMuc = new System.Windows.Forms.DataGridView();
             this.button1 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.MaHang = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayBatDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayKetThuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.DonGia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NgayCapNhat = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.grbHang.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhMuc)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -224,6 +229,12 @@
             // 
             this.dgvDanhMuc.BackgroundColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.dgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvDanhMuc.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.MaHang,
+            this.NgayBatDau,
+            this.NgayKetThuc,
+            this.DonGia,
+            this.NgayCapNhat});
             this.dgvDanhMuc.Location = new System.Drawing.Point(16, 22);
             this.dgvDanhMuc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhMuc.Name = "dgvDanhMuc";
@@ -255,6 +266,41 @@
             this.groupBox1.TabIndex = 25;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách lịch sử giá mặt hàng";
+            // 
+            // MaHang
+            // 
+            this.MaHang.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.MaHang.DataPropertyName = "MaHang";
+            this.MaHang.HeaderText = "Mã Hàng";
+            this.MaHang.Name = "MaHang";
+            // 
+            // NgayBatDau
+            // 
+            this.NgayBatDau.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayBatDau.DataPropertyName = "NgayBatDau";
+            this.NgayBatDau.HeaderText = "Ngày bắt đầu";
+            this.NgayBatDau.Name = "NgayBatDau";
+            // 
+            // NgayKetThuc
+            // 
+            this.NgayKetThuc.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayKetThuc.DataPropertyName = "NgayKetThuc";
+            this.NgayKetThuc.HeaderText = "Ngày kết thúc";
+            this.NgayKetThuc.Name = "NgayKetThuc";
+            // 
+            // DonGia
+            // 
+            this.DonGia.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.DonGia.DataPropertyName = "DonGia";
+            this.DonGia.HeaderText = "Đơn giá";
+            this.DonGia.Name = "DonGia";
+            // 
+            // NgayCapNhat
+            // 
+            this.NgayCapNhat.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.NgayCapNhat.DataPropertyName = "NgayCapNhat";
+            this.NgayCapNhat.HeaderText = "Ngày cập nhật";
+            this.NgayCapNhat.Name = "NgayCapNhat";
             // 
             // frmLichSuGia
             // 
@@ -301,5 +347,10 @@
         private System.Windows.Forms.TextBox txtNgayCapNhat;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn MaHang;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayBatDau;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayKetThuc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn DonGia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NgayCapNhat;
     }
 }

@@ -21,6 +21,8 @@ namespace QuanLyBanHang
 
         private void frmBCNgay_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
             // TODO: This line of code loads data into the 'DataSet1.HoaDonChiTiet' table. You can move, or remove it, as needed.
             
         }

@@ -16,7 +16,10 @@ namespace QuanLyBanHang
     {
         public frmLapHoaDon()
         {
+
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
         HangBUL myHang = new HangBUL();
         HoaDonBUL myHD = new HoaDonBUL();
