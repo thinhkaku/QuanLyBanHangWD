@@ -14,6 +14,11 @@ namespace QuanLyBanHang
 {
     public partial class frmNhanVien : Form
     {
+
+        public void hienthi()
+        {
+
+        }
         
         public frmNhanVien()
         {
@@ -22,10 +27,10 @@ namespace QuanLyBanHang
 
         NhanVienBUL myNhanVien = new NhanVienBUL();
         ThemNVBUL myThemNV = new ThemNVBUL();
-        SuaNVBUL mySuaNV = new SuaNVBUL();
         XemNVBUL myXemNV = new XemNVBUL();
         XoaNVBUL myXoaNV = new XoaNVBUL();
         private KTMTNhanVien ktMaTrungNV = new KTMTNhanVien();
+        
         
         void HienNV()
         { dgvDanhMuc.DataSource = myNhanVien.HienBangNV(); }
@@ -100,45 +105,23 @@ namespace QuanLyBanHang
             txtSDTNV.Clear();
             txtMaNV.Focus();
         }
-
+        
         private void btnSua_Click(object sender, EventArgs e)
         {
+            
             if (txtMaNV.Text == "")
             {
                 MessageBox.Show("Mã nhân viên không được bỏ trống", "Thông báo");
                 txtMaNV.Focus();
             }
-            else if (txtTenNV.Text == "")
-            {
-                MessageBox.Show("Tên nhân viên không được bỏ trống", "Thông báo");
-                txtTenNV.Focus();
-            }
-            else if (txtDiaChiNV.Text == "")
-            {
-                MessageBox.Show("Địa chỉ nhân viên không được bỏ trống", "Thông báo");
-                txtDiaChiNV.Focus();
-            }
+            
             else
             {
-                int check = 1;
-                try
-                {
-                    double gt = double.Parse(txtSDTNV.Text);
-
-                }
-                catch
-                {
-                    MessageBox.Show("Kiểu dữ liệu của SĐT k hợp lệ. Xin kiểm tra lai!", "Thông báo");
-                    txtSDTNV.Clear();
-                    txtSDTNV.Focus();
-                    check = 0;
-                };
-
-                if (check == 1)
-                {
                     if (ktMaTrungNV.KT_MaTrung(txtMaNV.Text))
                     {
-                        showMessageXacNhanSuaNhanVien();
+                      
+                        DilogSuaNhanVien dlSuaNV = new DilogSuaNhanVien(txtMaNV.Text);
+                        dlSuaNV.ShowDialog();
                     }
                     else
                     {
@@ -146,7 +129,7 @@ namespace QuanLyBanHang
                         clearText();
 
                     }
-                }
+                
                 
             }
             
@@ -175,16 +158,9 @@ namespace QuanLyBanHang
             HienNV();
         }
 
-        private void showMessageXacNhanSuaNhanVien()
-        {
-            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin nhà cung cấp này?", "Thông báo", MessageBoxButtons.YesNo);
-            if (dlr == DialogResult.Yes)
-            {
-                mySuaNV.Suasp(txtMaNV.Text, txtTenNV.Text, txtDiaChiNV.Text, txtSDTNV.Text);
-                MessageBox.Show("Sửa thông tin nhân viên thành công!", "Thông báo");
-                clearText();
-            }
-        }
+        
+
+       
 
         private void dgvDanhMuc_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
@@ -206,7 +182,7 @@ namespace QuanLyBanHang
             }
         }
 
-        private void showMessageXacNhanXoaNhanVien()
+        public  void showMessageXacNhanXoaNhanVien()
         {
             DialogResult dlr = MessageBox.Show("Bạn thực sự muốn xóa nhà cung cấp này?", "Thông báo", MessageBoxButtons.YesNo);
             if (dlr == DialogResult.Yes)

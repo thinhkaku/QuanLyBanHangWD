@@ -63,6 +63,18 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DataSet2.xsd</DependentUpon>
     </Compile>
+    <Compile Include="DialogSuaNCC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DialogSuaNCC.Designer.cs">
+      <DependentUpon>DialogSuaNCC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DilogSuaNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DilogSuaNhanVien.Designer.cs">
+      <DependentUpon>DilogSuaNhanVien.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmBCDoanhSo.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +143,12 @@
     <Compile Include="XemHoaDon.Designer.cs">
       <DependentUpon>XemHoaDon.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="DialogSuaNCC.resx">
+      <DependentUpon>DialogSuaNCC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DilogSuaNhanVien.resx">
+      <DependentUpon>DilogSuaNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmBCDoanhSo.resx">
       <DependentUpon>frmBCDoanhSo.cs</DependentUpon>
     </EmbeddedResource>

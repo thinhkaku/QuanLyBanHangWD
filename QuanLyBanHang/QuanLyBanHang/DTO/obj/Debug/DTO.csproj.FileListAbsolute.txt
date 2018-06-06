@@ -5,6 +5,5 @@ C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanL
 C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.pdb
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DTO\bin\Debug\DTO.dll
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DTO\bin\Debug\DTO.pdb
-D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.dll
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.pdb

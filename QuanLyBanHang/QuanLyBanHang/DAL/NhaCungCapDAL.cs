@@ -27,6 +27,21 @@ namespace DAL
             return ds;
         }
 
+        public NhaCungCapDTO getNhaCungCap(String ma)
+        {
+            NhaCungCapDTO ncc=null;
+            KetNoiCoSoDuLieu.Moketnoi();
+            string SQlSL = "SELECT * FROM NhaCungCap";
+            SqlCommand cmd = new SqlCommand(SQlSL, KetNoiCoSoDuLieu.chuoiketnoi);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+                ncc = new NhaCungCapDTO(dr["MaNhaCungCap"].ToString(), dr["TenNhaCungCap"].ToString(), dr["DiaChi"].ToString(), dr["SoDienThoai"].ToString());
+            }
+            KetNoiCoSoDuLieu.Dongketnoi();
+            return ncc;
+        }
+
         public bool KTMaTrung(string ma)
         {
             bool check = false;

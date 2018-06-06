@@ -21,7 +21,6 @@ namespace QuanLyBanHang
 
         NhaCungCapBUL myNCC = new NhaCungCapBUL();
         ThemNCCBUL myThemNCC = new ThemNCCBUL();
-        SuaNCCBUL mySuaNCC = new SuaNCCBUL();
         XemNCCBUL myXemNCC = new XemNCCBUL();
         XoaNCCBUL myXoaNCC = new XoaNCCBUL();
         private KTMTNhaCungCap ktMaNhaCungCap = new KTMTNhaCungCap();
@@ -106,58 +105,24 @@ namespace QuanLyBanHang
                 MessageBox.Show("Mã nhà cung cấp không được bỏ trống", "Thông báo");
                 txtMaNhaCungCap.Focus();
             }
-            else if (txtTenNCC.Text == "")
-            {
-                MessageBox.Show("Tên nhà cung cấp không được bỏ trống", "Thông báo");
-                txtTenNCC.Focus();
-            }
-            else if (txtDiaChiNCC.Text == "")
-            {
-                MessageBox.Show("Địa chỉ nhà cung cấp không được bỏ trống", "Thông báo");
-                txtDiaChiNCC.Focus();
-            }
+            
             else
             {
-                int check = 1;
-                try
-                {
-                    double gt = double.Parse(txtSDTNCC.Text);
-                }
-                catch
-                {
-                    MessageBox.Show("Kiểu dữ liệu của SĐT k hợp lệ. Xin kiểm tra lai!", "Thông báo");
-                    txtSDTNCC.Clear();
-                    txtSDTNCC.Focus();
-                    check = 0;
-                };
-
-                if (check == 1)
-                {
                     if (ktMaNhaCungCap.KT_MaTrung(txtMaNhaCungCap.Text))
                     {
-                        showMessageXacNhanSuaNCC();
+                        DialogSuaNCC dlSuaNCC = new DialogSuaNCC(txtMaNhaCungCap.Text);
+                        dlSuaNCC.ShowDialog();
                     }
                     else
                     {
                         MessageBox.Show("Mã nhà cung cấp không chính xác!", "Thông báo");
                     }
-                }
-
             }
            
             HienNCC();
         }
 
-        private void showMessageXacNhanSuaNCC()
-        {
-            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin nhà cung cấp này?","Thông báo",MessageBoxButtons.YesNo);
-            if (dlr == DialogResult.Yes)
-            {
-                mySuaNCC.Suasp(txtMaNhaCungCap.Text, txtTenNCC.Text, txtDiaChiNCC.Text, txtSDTNCC.Text);
-                MessageBox.Show("Sửa thông tin nhà cung cấp thành công", "Thông báo");
-                clearText();
-            }
-        }
+        
 
         private void showMessageXacNhanXoaNCC()
         {

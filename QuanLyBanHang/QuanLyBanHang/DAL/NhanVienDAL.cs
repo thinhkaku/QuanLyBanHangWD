@@ -27,6 +27,23 @@ namespace DAL
             return ds;
         }
 
+        public NhanVienDTO getNhanVien(String ma)
+        {
+            NhanVienDTO nv=new NhanVienDTO();
+            KetNoiCoSoDuLieu.Moketnoi();
+            string SQlSL = "select * from NhanVien where MaNhanVien='" + ma + "'";
+            SqlCommand cmd = new SqlCommand(SQlSL, KetNoiCoSoDuLieu.chuoiketnoi);
+            SqlDataReader dr = cmd.ExecuteReader();
+            while (dr.Read())
+            {
+               nv = new NhanVienDTO(dr["MaNhanVien"].ToString(), dr["HoTen"].ToString(), dr["DiaChi"].ToString(), dr["SoDienThoai"].ToString());
+                
+            }
+            KetNoiCoSoDuLieu.Dongketnoi();
+            return nv;
+
+        }
+
         public bool KTMaTrung(string ma)
         {
             bool check = false;

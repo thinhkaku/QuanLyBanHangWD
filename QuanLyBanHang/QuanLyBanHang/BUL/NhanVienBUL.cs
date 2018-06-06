@@ -13,8 +13,11 @@ namespace BUL
         NhanVienDAL myNV = new NhanVienDAL();
         public List<NhanVienDTO> HienBangNV()
         {
-
             return myNV.BangNhanVien();
+        }
+        public NhanVienDTO getNhanVien(String ma)
+        {
+            return myNV.getNhanVien(ma);
         }
     }
 }

@@ -56,6 +56,7 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -156,7 +157,8 @@
             // 
             this.mnuBaoCao.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.báoCáoHàngBánTheoNgàyToolStripMenuItem,
-            this.báoCáoDoanhSốBánHàngToolStripMenuItem});
+            this.báoCáoDoanhSốBánHàngToolStripMenuItem,
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem});
             this.mnuBaoCao.Name = "mnuBaoCao";
             this.mnuBaoCao.Size = new System.Drawing.Size(77, 24);
             this.mnuBaoCao.Text = "Báo Cáo";
@@ -275,6 +277,13 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(49, 20);
             this.toolStripStatusLabel.Text = "Status";
             // 
+            // báoCáoHàngTồnCuốiThángToolStripMenuItem
+            // 
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Name = "báoCáoHàngTồnCuốiThángToolStripMenuItem";
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Size = new System.Drawing.Size(279, 24);
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Text = "Báo cáo hàng tồn cuối tháng";
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Click += new System.EventHandler(this.báoCáoHàngTồnCuốiThángToolStripMenuItem_Click);
+            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -329,6 +338,7 @@
         private System.Windows.Forms.ToolStripMenuItem xemHóaĐơnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem báoCáoHàngBánTheoNgàyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem báoCáoDoanhSốBánHàngToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem báoCáoHàngTồnCuốiThángToolStripMenuItem;
     }
 }
 

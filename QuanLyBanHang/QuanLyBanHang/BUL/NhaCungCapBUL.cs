@@ -11,10 +11,12 @@ namespace BUL
    public class NhaCungCapBUL
     {
         NhaCungCapDAL myNCC = new NhaCungCapDAL();
-        public List<NhaCungCapDTO> HienBangNCC()
-        {
-
+        public List<NhaCungCapDTO> HienBangNCC(){
             return myNCC.BangNhaCungCap();
+        }
+        public NhaCungCapDTO getNhaCungCap(String ma)
+        {
+            return myNCC.getNhaCungCap(ma);
         }
     }
 }

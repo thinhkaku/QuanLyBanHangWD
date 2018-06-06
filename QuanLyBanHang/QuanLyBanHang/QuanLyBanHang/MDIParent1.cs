@@ -27,6 +27,7 @@ namespace QuanLyBanHang
         public MDIParent1()
         {
             InitializeComponent();
+            switchForms(frmH);
         }
 
         private void ShowNewForm(object sender, EventArgs e)
@@ -182,6 +183,11 @@ namespace QuanLyBanHang
         }
 
         private void MDIParent1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void báoCáoHàngTồnCuốiThángToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
         }
