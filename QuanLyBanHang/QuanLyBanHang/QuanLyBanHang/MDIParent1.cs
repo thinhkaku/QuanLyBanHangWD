@@ -13,6 +13,16 @@ namespace QuanLyBanHang
     public partial class MDIParent1 : Form
     {
         private int childFormNumber = 0;
+        private frmHang frmH = new frmHang();
+        private frmLoaiHang frmLH = new frmLoaiHang();
+        private frmNhaCungCap frmNCC = new frmNhaCungCap();
+        private frmNhanVien frmNV = new frmNhanVien();
+        private frmKhachHang frmKH = new frmKhachHang();
+        private frmLichSuGia frmLSG = new frmLichSuGia();
+        private frmXemHoaDon frmXemHD = new frmXemHoaDon();
+        private frmLapHoaDon frmLapHD = new frmLapHoaDon();
+        private frmBCNgay frmBaoCaoNgay = new frmBCNgay();
+        private frmBCDoanhSo frmBaoCaoDS = new frmBCDoanhSo();
 
         public MDIParent1()
         {
@@ -96,74 +106,79 @@ namespace QuanLyBanHang
             }
         }
 
+        
+
         private void mnuQLHang_Click(object sender, EventArgs e)
         {
-            frmHang frm = new frmHang();
-            frm.MdiParent = this;
-            frm.Show();
+            switchForms(frmH);
         }
 
         private void quaToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmLoaiHang frm = new frmLoaiHang();
-            frm.MdiParent = this;
-            frm.Show();
+            switchForms(frmLH);
+        }
+
+        
+
+        private void switchForms(Form forms)
+        {
+            frmH.Hide();
+            frmLH.Hide();
+            frmNV.Hide();
+            frmNCC.Hide();
+            frmKH.Hide();
+            frmLSG.Hide();
+            frmXemHD.Hide();
+            frmLapHD.Hide();
+            frmBaoCaoNgay.Hide();
+            frmBaoCaoDS.Hide();
+            forms.MdiParent = this;
+            forms.Show();
         }
 
         private void quảnLýNCCToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmNhaCungCap frm = new frmNhaCungCap();
-            frm.MdiParent = this;
-            frm.Show();
+            switchForms(frmNCC);
         }
 
         private void quảnLýNhânViênToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmNhanVien frm = new frmNhanVien();
-            frm.MdiParent = this;
-            frm.Show();
+            switchForms(frmNV);
         }
-
         private void quảnLýKháchHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmKhachHang frm = new frmKhachHang();
-            frm.MdiParent = this;
-            frm.Show();
+            switchForms(frmKH);
         }
+
 
         private void quảnLýLSGToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmLichSuGia frm = new frmLichSuGia();
-            frm.MdiParent = this;
-            frm.Show();
+
+            switchForms(frmLSG);
         }
 
         private void lậpHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmLapHoaDon frm = new frmLapHoaDon();
-            frm.MdiParent = this;
-            frm.Show();
+
+            switchForms(frmLapHD);
         }
 
         private void xemHóaĐơnToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmXemHoaDon frm = new frmXemHoaDon();
-            frm.MdiParent = this;
-            frm.Show();
+
+            switchForms(frmXemHD);
         }
 
         private void báoCáoHàngBánTheoNgàyToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmBCNgay frm = new frmBCNgay();
-            frm.MdiParent = this;
-            frm.Show();
+
+            switchForms(frmBaoCaoNgay);
         }
 
         private void báoCáoDoanhSốBánHàngToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmBCDoanhSo frm = new frmBCDoanhSo();
-            frm.MdiParent = this;
-            frm.Show();
+
+            switchForms(frmBaoCaoDS);
         }
 
         private void MDIParent1_Load(object sender, EventArgs e)

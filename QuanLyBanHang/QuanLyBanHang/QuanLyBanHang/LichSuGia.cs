@@ -33,6 +33,8 @@ namespace QuanLyBanHang
         
         private void frmLichSuGia_Load(object sender, EventArgs e)
         {
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
             cmbTenHang.DataSource = myHang.HienBangHang();
             cmbTenHang.DisplayMember = "TenSP";
             cmbTenHang.ValueMember = "MaSP";     

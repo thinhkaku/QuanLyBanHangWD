@@ -53,7 +53,7 @@
             this.btnXem.BackColor = System.Drawing.Color.OrangeRed;
             this.btnXem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnXem.Location = new System.Drawing.Point(841, 309);
-            this.btnXem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXem.Margin = new System.Windows.Forms.Padding(4);
             this.btnXem.Name = "btnXem";
             this.btnXem.Size = new System.Drawing.Size(100, 46);
             this.btnXem.TabIndex = 15;
@@ -66,7 +66,7 @@
             this.btnXoa.BackColor = System.Drawing.Color.OrangeRed;
             this.btnXoa.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnXoa.Location = new System.Drawing.Point(591, 309);
-            this.btnXoa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXoa.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(100, 46);
             this.btnXoa.TabIndex = 14;
@@ -79,7 +79,7 @@
             this.btnSua.BackColor = System.Drawing.Color.OrangeRed;
             this.btnSua.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnSua.Location = new System.Drawing.Point(341, 309);
-            this.btnSua.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSua.Margin = new System.Windows.Forms.Padding(4);
             this.btnSua.Name = "btnSua";
             this.btnSua.Size = new System.Drawing.Size(100, 46);
             this.btnSua.TabIndex = 13;
@@ -92,7 +92,7 @@
             this.btnThem.BackColor = System.Drawing.Color.OrangeRed;
             this.btnThem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnThem.Location = new System.Drawing.Point(101, 309);
-            this.btnThem.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnThem.Margin = new System.Windows.Forms.Padding(4);
             this.btnThem.Name = "btnThem";
             this.btnThem.Size = new System.Drawing.Size(100, 46);
             this.btnThem.TabIndex = 12;
@@ -112,9 +112,9 @@
             this.grbNhanVien.Controls.Add(this.txtMaNV);
             this.grbNhanVien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.grbNhanVien.Location = new System.Drawing.Point(25, 62);
-            this.grbNhanVien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbNhanVien.Margin = new System.Windows.Forms.Padding(4);
             this.grbNhanVien.Name = "grbNhanVien";
-            this.grbNhanVien.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.grbNhanVien.Padding = new System.Windows.Forms.Padding(4);
             this.grbNhanVien.Size = new System.Drawing.Size(1023, 208);
             this.grbNhanVien.TabIndex = 42;
             this.grbNhanVien.TabStop = false;
@@ -132,10 +132,10 @@
             // 
             // txtSDTNV
             // 
-            this.txtSDTNV.Location = new System.Drawing.Point(735, 135);
-            this.txtSDTNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSDTNV.Location = new System.Drawing.Point(708, 137);
+            this.txtSDTNV.Margin = new System.Windows.Forms.Padding(4);
             this.txtSDTNV.Name = "txtSDTNV";
-            this.txtSDTNV.Size = new System.Drawing.Size(132, 26);
+            this.txtSDTNV.Size = new System.Drawing.Size(208, 26);
             this.txtSDTNV.TabIndex = 38;
             // 
             // label17
@@ -150,16 +150,16 @@
             // 
             // txtDiaChiNV
             // 
-            this.txtDiaChiNV.Location = new System.Drawing.Point(735, 38);
-            this.txtDiaChiNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDiaChiNV.Location = new System.Drawing.Point(708, 40);
+            this.txtDiaChiNV.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiaChiNV.Name = "txtDiaChiNV";
-            this.txtDiaChiNV.Size = new System.Drawing.Size(132, 26);
+            this.txtDiaChiNV.Size = new System.Drawing.Size(208, 26);
             this.txtDiaChiNV.TabIndex = 36;
             // 
             // label18
             // 
             this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(156, 146);
+            this.label18.Location = new System.Drawing.Point(116, 145);
             this.label18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(65, 20);
@@ -168,16 +168,16 @@
             // 
             // txtTenNV
             // 
-            this.txtTenNV.Location = new System.Drawing.Point(283, 139);
-            this.txtTenNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenNV.Location = new System.Drawing.Point(227, 140);
+            this.txtTenNV.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenNV.Name = "txtTenNV";
-            this.txtTenNV.Size = new System.Drawing.Size(132, 26);
+            this.txtTenNV.Size = new System.Drawing.Size(208, 26);
             this.txtTenNV.TabIndex = 28;
             // 
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(156, 49);
+            this.label19.Location = new System.Drawing.Point(116, 43);
             this.label19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(60, 20);
@@ -186,10 +186,10 @@
             // 
             // txtMaNV
             // 
-            this.txtMaNV.Location = new System.Drawing.Point(283, 38);
-            this.txtMaNV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMaNV.Location = new System.Drawing.Point(227, 40);
+            this.txtMaNV.Margin = new System.Windows.Forms.Padding(4);
             this.txtMaNV.Name = "txtMaNV";
-            this.txtMaNV.Size = new System.Drawing.Size(132, 26);
+            this.txtMaNV.Size = new System.Drawing.Size(208, 26);
             this.txtMaNV.TabIndex = 22;
             // 
             // dgvDanhMuc
@@ -201,17 +201,18 @@
             this.dgvDanhMuc.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgvDanhMuc.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhMuc.Location = new System.Drawing.Point(16, 31);
-            this.dgvDanhMuc.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvDanhMuc.Margin = new System.Windows.Forms.Padding(4);
             this.dgvDanhMuc.Name = "dgvDanhMuc";
-            this.dgvDanhMuc.Size = new System.Drawing.Size(982, 138);
+            this.dgvDanhMuc.Size = new System.Drawing.Size(982, 215);
             this.dgvDanhMuc.TabIndex = 10;
             // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dgvDanhMuc);
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(25, 370);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(1014, 176);
+            this.groupBox1.Size = new System.Drawing.Size(1014, 253);
             this.groupBox1.TabIndex = 43;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Danh sách nhân viên";
@@ -228,7 +229,7 @@
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnSua);
             this.Controls.Add(this.btnThem);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "frmNhanVien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NhanVien";

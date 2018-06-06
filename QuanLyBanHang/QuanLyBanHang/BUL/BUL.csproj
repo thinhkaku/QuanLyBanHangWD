@@ -46,6 +46,7 @@
     <Compile Include="KTMTHangBUL.cs" />
     <Compile Include="KTMTKhachHangBUL.cs" />
     <Compile Include="KTMTLoaiHangBUL.cs" />
+    <Compile Include="KTMTNhanVien.cs" />
     <Compile Include="KTMT_LSGBUL.cs" />
     <Compile Include="LichSuGiaBUL.cs" />
     <Compile Include="LoaiHangBUL.cs" />
