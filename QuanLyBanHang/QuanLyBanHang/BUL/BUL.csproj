@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D326400-DC3D-41AB-99FC-8B1E87849E2E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BUL</RootNamespace>
+    <AssemblyName>BUL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="HangBUL.cs" />
+    <Compile Include="HoaDonBUL.cs" />
+    <Compile Include="HoaDonChiTietBUL.cs" />
+    <Compile Include="KhachHangBUL.cs" />
+    <Compile Include="KTMTHangBUL.cs" />
+    <Compile Include="KTMTKhachHangBUL.cs" />
+    <Compile Include="KTMTLoaiHangBUL.cs" />
+    <Compile Include="KTMT_LSGBUL.cs" />
+    <Compile Include="LichSuGiaBUL.cs" />
+    <Compile Include="LoaiHangBUL.cs" />
+    <Compile Include="NhaCungCapBUL.cs" />
+    <Compile Include="NhanVienBUL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SuaHangBUL.cs" />
+    <Compile Include="SuaHDCTBUL.cs" />
+    <Compile Include="SuaHoaDonBUL.cs" />
+    <Compile Include="SuaKHBUL.cs" />
+    <Compile Include="SuaLoaiHangBUL.cs" />
+    <Compile Include="SuaLSGBUL.cs" />
+    <Compile Include="SuaNCCBUL.cs" />
+    <Compile Include="SuaNVBUL.cs" />
+    <Compile Include="ThemHDCTBUL.cs" />
+    <Compile Include="ThemHangBUL.cs" />
+    <Compile Include="ThemHoaDonBUL.cs" />
+    <Compile Include="ThemKHBUL.cs" />
+    <Compile Include="ThemLoaiHangBUL.cs" />
+    <Compile Include="ThemLSGBUL.cs" />
+    <Compile Include="ThemNCCBUL.cs" />
+    <Compile Include="ThemNVBUL.cs" />
+    <Compile Include="XemHangBUL.cs" />
+    <Compile Include="XemHDCTBUL.cs" />
+    <Compile Include="XemHoaDonBUL.cs" />
+    <Compile Include="XemKHBUL.cs" />
+    <Compile Include="XemLoaiHangBUL.cs" />
+    <Compile Include="XemLSGBUL.cs" />
+    <Compile Include="XemNCCBUL.cs" />
+    <Compile Include="XemNVBUL.cs" />
+    <Compile Include="XoaHangBUL.cs" />
+    <Compile Include="XoaHDCTBUL.cs" />
+    <Compile Include="XoaHoaDonBUL.cs" />
+    <Compile Include="XoaKHBUL.cs" />
+    <Compile Include="XoaLoaiHangBUL.cs" />
+    <Compile Include="XoaLSGBUL.cs" />
+    <Compile Include="XoaNCCBUL.cs" />
+    <Compile Include="XoaNVBUL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{33bc737a-6cc8-4149-8f14-ef922ad2ad8c}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{eda14bf8-d034-4751-ab9e-334134d9bd0b}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

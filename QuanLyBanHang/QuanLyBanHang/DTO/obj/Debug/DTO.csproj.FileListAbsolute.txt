@@ -1,0 +1,5 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\DTO\bin\Debug\DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\DTO\bin\Debug\DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\DTO\obj\Debug\DTO.pdb

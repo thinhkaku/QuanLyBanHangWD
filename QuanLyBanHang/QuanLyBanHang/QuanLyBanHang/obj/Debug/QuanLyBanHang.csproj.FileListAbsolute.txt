@@ -1,0 +1,64 @@
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csprojResolveAssemblyReference.cache
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Form1.resources
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+c:\users\administrator\documents\visual studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.FrmBaoCao.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.Cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\BUL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\BUL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmHang.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.MDIParent1.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLoaiHang.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhaCungCap.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhanVien.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmKhachHang.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLichSuGia.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLapHoaDon.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmXemHoaDon.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCNgay.resources
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.compiled
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCDoanhSo.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csprojResolveAssemblyReference.cache
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCDoanhSo.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCNgay.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmHang.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmKhachHang.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLapHoaDon.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLichSuGia.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmLoaiHang.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.MDIParent1.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhaCungCap.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmNhanVien.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.Properties.Resources.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmXemHoaDon.resources
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.csproj.GenerateResource.cache
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.exe
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe.config
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.exe
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\QuanLyBanHang.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\BUL.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\BUL.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DTO.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\bin\Debug\DAL.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.cache
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.compiled

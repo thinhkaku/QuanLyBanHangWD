@@ -1,0 +1,18 @@
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\BUL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\BUL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DAL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DAL.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.pdb
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.dll
+C:\Users\Administrator\Documents\Visual Studio 2012\Projects\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\BUL.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\BUL.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DAL.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DAL.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\bin\Debug\DTO.pdb
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.csprojResolveAssemblyReference.cache
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.dll
+D:\QLBH3\QLBH3\QuanLyBanHang\QuanLyBanHang\BUL\obj\Debug\BUL.pdb
