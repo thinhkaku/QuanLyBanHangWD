@@ -67,6 +67,7 @@ namespace QuanLyBanHang
                 else
                 {
                     myThemLH.ThemHang(txtMaLoai.Text, txtTenLoai.Text, txtGhiChu.Text);
+                    MessageBox.Show("Thêm loại hàng thành công!", "Thông báo");
                     HienLoaiHang();
                 }
             }
@@ -105,7 +106,8 @@ namespace QuanLyBanHang
 
                 if (myKTMTLoaiHang.KT_MaTrung(txtMaLoai.Text))
                 {
-                    mySuaLH.Suasp(txtMaLoai.Text, txtTenLoai.Text, txtGhiChu.Text);
+                    showMessageXacNhanSuaLoaiHang();
+                    
                     HienLoaiHang();
                     txtGhiChu.Clear();
                     txtMaLoai.Clear();
@@ -126,11 +128,31 @@ namespace QuanLyBanHang
             
         }
 
+        public void showMessageXacNhanSuaLoaiHang()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin loại hàng này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                mySuaLH.Suasp(txtMaLoai.Text, txtTenLoai.Text, txtGhiChu.Text);
+                MessageBox.Show("Sửa thông tin loại hàng thành công!", "Thông báo");
+            }
+        }
+        public void showMessageXacNhanXoaLoaiHang()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn xóa loại hàng này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                myXoaLH.Xoasp(txtMaLoai.Text);
+                MessageBox.Show("Xóa loại hàng thành công!", "Thông báo");
+            }
+        }
+
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (myKTMTLoaiHang.KT_MaTrung(txtMaLoai.Text))
             {
-                myXoaLH.Xoasp(txtMaLoai.Text);
+                showMessageXacNhanXoaLoaiHang();
+                
                 HienLoaiHang();
 
             }

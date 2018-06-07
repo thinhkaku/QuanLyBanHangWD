@@ -44,6 +44,7 @@
             this.mnuBaoCao = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoHàngBánTheoNgàyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.báoCáoDoanhSốBánHàngToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip = new System.Windows.Forms.ToolStrip();
             this.newToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.openToolStripButton = new System.Windows.Forms.ToolStripButton();
@@ -56,7 +57,6 @@
             this.statusStrip = new System.Windows.Forms.StatusStrip();
             this.toolStripStatusLabel = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.báoCáoHàngTồnCuốiThángToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.toolStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
@@ -177,6 +177,13 @@
             this.báoCáoDoanhSốBánHàngToolStripMenuItem.Text = "Báo Cáo Doanh Số Bán Hàng";
             this.báoCáoDoanhSốBánHàngToolStripMenuItem.Click += new System.EventHandler(this.báoCáoDoanhSốBánHàngToolStripMenuItem_Click);
             // 
+            // báoCáoHàngTồnCuốiThángToolStripMenuItem
+            // 
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Name = "báoCáoHàngTồnCuốiThángToolStripMenuItem";
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Size = new System.Drawing.Size(279, 24);
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Text = "Báo cáo hàng tồn cuối tháng";
+            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Click += new System.EventHandler(this.báoCáoHàngTồnCuốiThángToolStripMenuItem_Click);
+            // 
             // toolStrip
             // 
             this.toolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -277,17 +284,11 @@
             this.toolStripStatusLabel.Size = new System.Drawing.Size(49, 20);
             this.toolStripStatusLabel.Text = "Status";
             // 
-            // báoCáoHàngTồnCuốiThángToolStripMenuItem
-            // 
-            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Name = "báoCáoHàngTồnCuốiThángToolStripMenuItem";
-            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Size = new System.Drawing.Size(279, 24);
-            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Text = "Báo cáo hàng tồn cuối tháng";
-            this.báoCáoHàngTồnCuốiThángToolStripMenuItem.Click += new System.EventHandler(this.báoCáoHàngTồnCuốiThángToolStripMenuItem_Click);
-            // 
             // MDIParent1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
             this.ClientSize = new System.Drawing.Size(1104, 718);
             this.Controls.Add(this.statusStrip);
             this.Controls.Add(this.toolStrip);

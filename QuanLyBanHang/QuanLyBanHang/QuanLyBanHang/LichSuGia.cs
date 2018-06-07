@@ -90,6 +90,7 @@ namespace QuanLyBanHang
                     else
                     {
                         myThemLSG.ThemHang(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text, txtNgayKetThuc.Text, txtDonGia.Text, txtNgayCapNhat.Text);
+                        MessageBox.Show("Thêm lịch sử giá thành công!", "Thông báo");
                         HienLSG();
                         txtDonGia.Clear();
                         txtNgayBatDau.Clear();
@@ -140,7 +141,8 @@ namespace QuanLyBanHang
                 {
                     if (myKTMT.KT_MaTrung(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text))
                     {
-                        mySuaLSG.Suasp(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text, txtNgayKetThuc.Text, txtDonGia.Text, txtNgayCapNhat.Text);
+                        showMessageXacNhanSuaLichSuGia();
+                        
                         HienLSG();
 
                         txtDonGia.Clear();
@@ -163,11 +165,31 @@ namespace QuanLyBanHang
            
         }
 
+        public void showMessageXacNhanSuaLichSuGia()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin lịch sử giá này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                mySuaLSG.Suasp(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text, txtNgayKetThuc.Text, txtDonGia.Text, txtNgayCapNhat.Text);
+                MessageBox.Show("Sửa thông tin lịch sử giá thành công!", "Thông báo");
+            }
+        }
+        public void showMessageXacNhanXoaLichSuGia()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn xóa lịch sử giá này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                myXoaLSG.Xoasp(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text);
+                MessageBox.Show("Xóa lịch sử giá thành công!", "Thông báo");
+            }
+        }
+
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (myKTMT.KT_MaTrung(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text))
             {
-                myXoaLSG.Xoasp(cmbTenHang.SelectedValue.ToString(), txtNgayBatDau.Text);
+                showMessageXacNhanXoaLichSuGia();
+                
                 HienLSG();
                 txtDonGia.Clear();
                 txtNgayBatDau.Clear();

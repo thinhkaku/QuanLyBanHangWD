@@ -87,6 +87,12 @@
     <Compile Include="frmBCNgay.Designer.cs">
       <DependentUpon>frmBCNgay.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmBCTonKho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBCTonKho.Designer.cs">
+      <DependentUpon>frmBCTonKho.cs</DependentUpon>
+    </Compile>
     <Compile Include="Hang.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmBCNgay.resx">
       <DependentUpon>frmBCNgay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBCTonKho.resx">
+      <DependentUpon>frmBCTonKho.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Hang.resx">
       <DependentUpon>Hang.cs</DependentUpon>

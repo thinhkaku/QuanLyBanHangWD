@@ -84,6 +84,7 @@ namespace QuanLyBanHang
                     else
                     {
                         myThemKH.ThemHang(txtMaKH.Text, txtTenKH.Text, txtDiaChiKH.Text, txtSDTKH.Text);
+                        MessageBox.Show("Thêm khách hàng thành công!", "Thông báo");
                         HienKH();
                         txtDiaChiKH.Clear();
                         txtMaKH.Clear();
@@ -135,7 +136,8 @@ namespace QuanLyBanHang
                 {
                     if (myKTMT.KT_MaTrung(txtMaKH.Text))
                     {
-                        mySuaKH.Suasp(txtMaKH.Text, txtTenKH.Text, txtDiaChiKH.Text, txtSDTKH.Text);
+                        showMessageXacNhanSuaKhach();
+                        
                         HienKH();
 
                         txtDiaChiKH.Clear();
@@ -158,11 +160,31 @@ namespace QuanLyBanHang
           
         }
 
+        public void showMessageXacNhanSuaKhach()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin khách hàng này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                mySuaKH.Suasp(txtMaKH.Text, txtTenKH.Text, txtDiaChiKH.Text, txtSDTKH.Text);
+                MessageBox.Show("Sửa thông tin khách hàng thành công!", "Thông báo");
+            }
+        }
+        public void showMessageXacNhanXoaKhachHang()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn xóa khách hàng này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                myXoaKH.Xoasp(txtMaKH.Text);
+                MessageBox.Show("Xóa khách hàng thành công!", "Thông báo");
+            }
+        }
+
         private void btnXoa_Click(object sender, EventArgs e)
         {
             if (myKTMT.KT_MaTrung(txtMaKH.Text))
             {
-                myXoaKH.Xoasp(txtMaKH.Text);
+                showMessageXacNhanXoaKhachHang();
+               
                 HienKH();
                 txtDiaChiKH.Clear();
                 txtMaKH.Clear();

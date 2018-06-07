@@ -23,6 +23,7 @@ namespace QuanLyBanHang
         private frmLapHoaDon frmLapHD = new frmLapHoaDon();
         private frmBCNgay frmBaoCaoNgay = new frmBCNgay();
         private frmBCDoanhSo frmBaoCaoDS = new frmBCDoanhSo();
+        private frmBCTonKho frmBaoCaoTonKho = new frmBCTonKho();
 
         public MDIParent1()
         {
@@ -133,6 +134,7 @@ namespace QuanLyBanHang
             frmLapHD.Hide();
             frmBaoCaoNgay.Hide();
             frmBaoCaoDS.Hide();
+            frmBaoCaoTonKho.Hide();
             forms.MdiParent = this;
             forms.Show();
         }
@@ -189,7 +191,7 @@ namespace QuanLyBanHang
 
         private void báoCáoHàngTồnCuốiThángToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            switchForms(frmBaoCaoTonKho);
         }
     }
 }

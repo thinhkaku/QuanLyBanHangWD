@@ -91,3 +91,4 @@ D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debu
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\RdlCompile.compiled
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.DilogSuaNhanVien.resources
 D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.DialogSuaNCC.resources
+D:\lt windown\QuanLyBanHangWD\QuanLyBanHang\QuanLyBanHang\QuanLyBanHang\obj\Debug\QuanLyBanHang.frmBCTonKho.resources

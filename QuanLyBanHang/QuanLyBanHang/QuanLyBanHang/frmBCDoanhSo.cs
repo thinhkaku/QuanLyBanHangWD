@@ -17,12 +17,13 @@ namespace QuanLyBanHang
         public frmBCDoanhSo()
         {
             InitializeComponent();
+            this.FormBorderStyle = FormBorderStyle.None;
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void setparameter(string nl)
         {
             ReportParameter rp = new ReportParameter("NguoiLap");
-
             rp.Values.Add(nl);
             reportViewer1.LocalReport.SetParameters(rp);
         }
@@ -30,7 +31,6 @@ namespace QuanLyBanHang
         private void setparameter1(string dv)
         {
             ReportParameter rp = new ReportParameter("DonVi");
-
             rp.Values.Add(dv);
             reportViewer1.LocalReport.SetParameters(rp);
         }

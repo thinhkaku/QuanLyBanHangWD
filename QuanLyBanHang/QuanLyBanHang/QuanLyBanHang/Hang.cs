@@ -111,6 +111,7 @@ namespace QuanLyBanHang
                     else
                     {
                         myThemHang.ThemHang(txtMaHang.Text, txtTensp.Text, txtDVT.Text, txtDonGia.Text, cmbTenLoaiHang.SelectedValue.ToString(), txtSoLuong.Text, cmbTenNCCHang.SelectedValue.ToString());
+                        MessageBox.Show("Thêm sản phẩm thành công!", "Thông báo");
                         HienHang();
                         txtDonGia.Clear();
                         txtDVT.Clear();
@@ -175,7 +176,8 @@ namespace QuanLyBanHang
                 {
                     if (myKTMTHang.KT_MaTrung(txtMaHang.Text))
                     {
-                        mySuaHang.Suasp(txtMaHang.Text, txtTensp.Text, txtDVT.Text, txtDonGia.Text, txtSoLuong.Text);
+                        showMessageXacNhanSuaHang();
+                       
                         HienHang();
                         txtDonGia.Clear();
                         txtDVT.Clear();
@@ -201,12 +203,32 @@ namespace QuanLyBanHang
            
         }
 
+        public void showMessageXacNhanSuaHang()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn sửa thông tin sản phẩm này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                mySuaHang.Suasp(txtMaHang.Text, txtTensp.Text, txtDVT.Text, txtDonGia.Text, txtSoLuong.Text);
+                MessageBox.Show("Sửa thông tin sản phẩm thành công!", "Thông báo");
+            }
+        }
+        public void showMessageXacNhanXoaHang()
+        {
+            DialogResult dlr = MessageBox.Show("Bạn thực sự muốn xóa sản phẩm này?", "Thông báo", MessageBoxButtons.YesNo);
+            if (dlr == DialogResult.Yes)
+            {
+                myXoaHang.Xoasp(txtMaHang.Text);
+                MessageBox.Show("Xóa hàng thành công!", "Thông báo");
+            }
+        }
+
         private void btnXoa_Click(object sender, EventArgs e)
         {
 
             if (myKTMTHang.KT_MaTrung(txtMaHang.Text))
             {
-                myXoaHang.Xoasp(txtMaHang.Text);
+
+                showMessageXacNhanXoaHang();
                 HienHang();
                 txtDonGia.Clear();
                 txtDVT.Clear();
@@ -242,6 +264,10 @@ namespace QuanLyBanHang
                 txtMaHang.Focus();
 
             }
+                else if(txtMaHang.Text=="")
+            {
+                HienHang();
+             }
             else
             {
                 MessageBox.Show("MaHang khong ton tai. Xin kiem tra lai !", "Eurro");
